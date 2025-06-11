@@ -1,7 +1,6 @@
 const EMPTY_PATH = require.resolve('../polyfills/empty.js');
 
 export interface NodePolyfillsOptions {
-  fs?: boolean;
   crypto?: boolean;
   sourceMap?: boolean;
   baseDir?: string;
@@ -39,6 +38,7 @@ export function builtinsResolver(opts: NodePolyfillsOptions) {
   libs.set('zlib', require.resolve('../polyfills/zlib'));
   libs.set('tty', require.resolve('../polyfills/tty'));
   libs.set('domain', require.resolve('../polyfills/domain'));
+  libs.set('fs', require.resolve('../polyfills/ts-fs-promise.js'));
 
   // not shimmed
   libs.set('dns', EMPTY_PATH);
@@ -50,12 +50,8 @@ export function builtinsResolver(opts: NodePolyfillsOptions) {
   libs.set('readline', EMPTY_PATH);
   libs.set('repl', EMPTY_PATH);
   libs.set('tls', EMPTY_PATH);
-  libs.set('fs', EMPTY_PATH);
   libs.set('crypto', EMPTY_PATH);
 
-  if (opts.fs) {
-    libs.set('fs', require.resolve('../polyfills/browserify-fs'));
-  }
   if (opts.crypto) {
     libs.set('crypto', require.resolve('../polyfills/crypto-browserify'));
   }

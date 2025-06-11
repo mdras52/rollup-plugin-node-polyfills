@@ -1,0 +1,182 @@
+Name: ts-fs-promise
+Version: 1.0.4
+License: MIT
+Private: false
+Repository: https://github.com/tsigel/ts-fs-promise.git
+Homepage: https://github.com/tsigel/ts-fs-promise
+Author: Daniil Tsigelnitskiy
+
+---
+
+Name: es6-promise
+Version: 2.3.0
+License: MIT
+Private: false
+Description: A lightweight library that provides tools for organizing asynchronous code
+Repository: git://github.com/jakearchibald/ES6-Promises.git
+Author: Yehuda Katz, Tom Dale, Stefan Penner and contributors (Conversion to ES6 API by Jake Archibald)
+
+---
+
+Name: fs-extra
+Version: 0.16.5
+License: (MIT)
+Private: false
+Description: fs-extra contains methods that aren't included in the vanilla Node.js fs package. Such as mkdir -p, cp -r, and rm -rf.
+Repository: https://github.com/jprichardson/node-fs-extra
+Homepage: https://github.com/jprichardson/node-fs-extra
+Author: JP Richardson <jprichardson@gmail.com>
+
+---
+
+Name: graceful-fs
+Version: 3.0.12
+License: ISC
+Private: false
+Description: A drop-in replacement for fs, making various improvements.
+Repository: git://github.com/isaacs/node-graceful-fs.git
+Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me)
+
+---
+
+Name: jsonfile
+Version: 2.4.0
+License: MIT
+Private: false
+Description: Easily read/write JSON files.
+Repository: git@github.com:jprichardson/node-jsonfile.git
+Author: JP Richardson <jprichardson@gmail.com>
+
+---
+
+Name: rimraf
+Version: 2.6.3
+License: ISC
+Private: false
+Description: A deep deletion module for node (like `rm -rf`)
+Repository: undefined
+Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
+
+---
+
+Name: natives
+Version: 1.1.6
+License: ISC
+Private: false
+Description: Do stuff with Node.js's native JavaScript modules
+Repository: git+https://github.com/addaleax/natives.git
+Homepage: https://github.com/addaleax/natives#readme
+Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
+
+---
+
+Name: glob
+Version: 7.1.3
+License: ISC
+Private: false
+Description: a little globber
+Repository: git://github.com/isaacs/node-glob.git
+Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
+
+---
+
+Name: inherits
+Version: 2.0.3
+License: ISC
+Private: false
+Description: Browser-friendly inheritance fully compatible with standard node.js inherits()
+Repository: undefined
+
+---
+
+Name: fs.realpath
+Version: 1.0.0
+License: ISC
+Private: false
+Description: Use node's fs.realpath, but fall back to the JS implementation if the native one fails
+Repository: git+https://github.com/isaacs/fs.realpath.git
+Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
+
+---
+
+Name: minimatch
+Version: 3.0.4
+License: ISC
+Private: false
+Description: a glob matcher in javascript
+Repository: git://github.com/isaacs/minimatch.git
+Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me)
+
+---
+
+Name: once
+Version: 1.4.0
+License: ISC
+Private: false
+Description: Run a function exactly one time
+Repository: git://github.com/isaacs/once
+Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
+
+---
+
+Name: inflight
+Version: 1.0.6
+License: ISC
+Private: false
+Description: Add callbacks to requests in flight to avoid async duplication
+Repository: https://github.com/npm/inflight.git
+Homepage: https://github.com/isaacs/inflight
+Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
+
+---
+
+Name: path-is-absolute
+Version: 1.0.1
+License: MIT
+Private: false
+Description: Node.js 0.12 path.isAbsolute() ponyfill
+Repository: undefined
+Author: Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+---
+
+Name: wrappy
+Version: 1.0.2
+License: ISC
+Private: false
+Description: Callback wrapping utility
+Repository: https://github.com/npm/wrappy
+Homepage: https://github.com/npm/wrappy
+Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
+
+---
+
+Name: brace-expansion
+Version: 1.1.11
+License: MIT
+Private: false
+Description: Brace expansion as known from sh/bash
+Repository: git://github.com/juliangruber/brace-expansion.git
+Homepage: https://github.com/juliangruber/brace-expansion
+Author: Julian Gruber <mail@juliangruber.com> (http://juliangruber.com)
+
+---
+
+Name: balanced-match
+Version: 1.0.0
+License: MIT
+Private: false
+Description: Match balanced character pairs, like "{" and "}"
+Repository: git://github.com/juliangruber/balanced-match.git
+Homepage: https://github.com/juliangruber/balanced-match
+Author: Julian Gruber <mail@juliangruber.com> (http://juliangruber.com)
+
+---
+
+Name: concat-map
+Version: 0.0.1
+License: MIT
+Private: false
+Description: concatenative mapdashery
+Repository: git://github.com/substack/node-concat-map.git
+Author: James Halliday <mail@substack.net> (http://substack.net)

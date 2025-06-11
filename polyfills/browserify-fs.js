@@ -1,5 +1,5 @@
 import util$2 from 'util';
-import * as buffer from 'buffer';
+import buffer from 'buffer';
 import events from 'events';
 import stream from 'stream';
 import path from 'path';

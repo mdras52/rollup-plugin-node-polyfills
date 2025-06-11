@@ -51,7 +51,7 @@ Repository: undefined
 ---
 
 Name: rollup-plugin-node-resolve
-Version: 5.0.1
+Version: 5.0.2
 License: MIT
 Private: false
 Description: Bundle third-party dependencies in node_modules
@@ -85,16 +85,6 @@ Contributors:
 
 ---
 
-Name: once
-Version: 1.4.0
-License: ISC
-Private: false
-Description: Run a function exactly one time
-Repository: git://github.com/isaacs/once
-Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
-
----
-
 Name: octal
 Version: 1.0.0
 License: MIT
@@ -106,6 +96,16 @@ Author: Mathias Buus (@mafintosh)
 
 ---
 
+Name: once
+Version: 1.4.0
+License: ISC
+Private: false
+Description: Run a function exactly one time
+Repository: git://github.com/isaacs/once
+Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
+
+---
+
 Name: readable-stream
 Version: 1.0.34
 License: MIT
@@ -113,15 +113,6 @@ Private: false
 Description: Streams2, a user-land copy of the stream library from Node.js v0.10.x
 Repository: git://github.com/isaacs/readable-stream
 Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
-
----
-
-Name: level-blobs
-Version: 0.1.7
-License: undefined
-Private: false
-Description: Save binary blobs in level and stream then back
-Repository: undefined
 
 ---
 
@@ -155,6 +146,16 @@ Author: Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)
 
 ---
 
+Name: concat-stream
+Version: 1.6.2
+License: MIT
+Private: false
+Description: writable stream that concatenates strings or binary data and calls a callback with the result
+Repository: http://github.com/maxogden/concat-stream.git
+Author: Max Ogden <max@maxogden.com>
+
+---
+
 Name: errno
 Version: 0.1.7
 License: MIT
@@ -164,13 +165,12 @@ Repository: https://github.com/rvagg/node-errno.git
 
 ---
 
-Name: concat-stream
-Version: 1.6.2
-License: MIT
+Name: level-blobs
+Version: 0.1.7
+License: undefined
 Private: false
-Description: writable stream that concatenates strings or binary data and calls a callback with the result
-Repository: http://github.com/maxogden/concat-stream.git
-Author: Max Ogden <max@maxogden.com>
+Description: Save binary blobs in level and stream then back
+Repository: undefined
 
 ---
 
@@ -193,17 +193,6 @@ Homepage: https://github.com/jensarps/IDBWrapper
 Author: jensarps <mail@jensarps.de> (http://jensarps.de/)
 Contributors:
   Github Contributors (https://github.com/jensarps/IDBWrapper/graphs/contributors)
-
----
-
-Name: typedarray-to-buffer
-Version: 1.0.4
-License: MIT
-Private: false
-Description: Convert a typed array to a Buffer without a copy
-Repository: git://github.com/feross/typedarray-to-buffer.git
-Homepage: http://feross.org
-Author: Feross Aboukhadijeh <feross@feross.org> (http://feross.org/)
 
 ---
 
@@ -242,6 +231,17 @@ Author: Julian Gruber <mail@juliangruber.com> (http://juliangruber.com)
 
 ---
 
+Name: typedarray-to-buffer
+Version: 1.0.4
+License: MIT
+Private: false
+Description: Convert a typed array to a Buffer without a copy
+Repository: git://github.com/feross/typedarray-to-buffer.git
+Homepage: http://feross.org
+Author: Feross Aboukhadijeh <feross@feross.org> (http://feross.org/)
+
+---
+
 Name: deferred-leveldown
 Version: 0.2.0
 License: MIT
@@ -266,6 +266,16 @@ Contributors:
 
 ---
 
+Name: bl
+Version: 0.8.2
+License: MIT
+Private: false
+Description: Buffer List: collect buffers and access with a standard readable Buffer interface, streamable too!
+Repository: https://github.com/rvagg/bl.git
+Homepage: https://github.com/rvagg/bl
+
+---
+
 Name: wrappy
 Version: 1.0.2
 License: ISC
@@ -277,13 +287,13 @@ Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
 
 ---
 
-Name: bl
-Version: 0.8.2
+Name: ltgt
+Version: 2.2.1
 License: MIT
 Private: false
-Description: Buffer List: collect buffers and access with a standard readable Buffer interface, streamable too!
-Repository: https://github.com/rvagg/bl.git
-Homepage: https://github.com/rvagg/bl
+Repository: git://github.com/dominictarr/ltgt.git
+Homepage: https://github.com/dominictarr/ltgt
+Author: Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)
 
 ---
 
@@ -294,16 +304,6 @@ Private: false
 Description: An Object.keys replacement, in case Object.keys is not available. From https://github.com/kriskowal/es5-shim
 Repository: git://github.com/ljharb/object-keys.git
 Author: Jordan Harband
-
----
-
-Name: ltgt
-Version: 2.2.1
-License: MIT
-Private: false
-Repository: git://github.com/dominictarr/ltgt.git
-Homepage: https://github.com/dominictarr/ltgt
-Author: Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)
 
 ---
 
@@ -380,16 +380,6 @@ Author: Dominic Tarr <dominic.tarr@gmail.com> (http://bit.ly/dominictarr)
 
 ---
 
-Name: core-util-is
-Version: 1.0.2
-License: MIT
-Private: false
-Description: The `util.is*` functions introduced in Node v0.12.
-Repository: git://github.com/isaacs/core-util-is
-Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
-
----
-
 Name: string-range
 Version: 1.2.2
 License: MIT
@@ -398,6 +388,16 @@ Description: check if a string is within a range
 Repository: git://github.com/dominictarr/string-range.git
 Homepage: https://github.com/dominictarr/string-range
 Author: Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)
+
+---
+
+Name: core-util-is
+Version: 1.0.2
+License: MIT
+Private: false
+Description: The `util.is*` functions introduced in Node v0.12.
+Repository: git://github.com/isaacs/core-util-is
+Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
 
 ---
 
@@ -447,19 +447,6 @@ Contributors:
 
 ---
 
-Name: is
-Version: 0.2.7
-License: undefined
-Private: false
-Description: the definitive JavaScript type testing library
-Repository: git://github.com/enricomarino/is.git
-Homepage: https://github.com/enricomarino/is
-Author: Enrico Marino (http://onirame.com)
-Contributors:
-  Jordan Harband (https://github.com/ljharb)
-
----
-
 Name: foreach
 Version: 2.0.5
 License: MIT
@@ -469,4 +456,17 @@ Repository: git://github.com/manuelstofer/foreach
 Author: Manuel Stofer <manuel@takimata.ch>
 Contributors:
   Manuel Stofer
+  Jordan Harband (https://github.com/ljharb)
+
+---
+
+Name: is
+Version: 0.2.7
+License: undefined
+Private: false
+Description: the definitive JavaScript type testing library
+Repository: git://github.com/enricomarino/is.git
+Homepage: https://github.com/enricomarino/is
+Author: Enrico Marino (http://onirame.com)
+Contributors:
   Jordan Harband (https://github.com/ljharb)
