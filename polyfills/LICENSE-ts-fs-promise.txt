@@ -99,16 +99,6 @@ Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
 
 ---
 
-Name: minimatch
-Version: 3.0.4
-License: ISC
-Private: false
-Description: a glob matcher in javascript
-Repository: git://github.com/isaacs/minimatch.git
-Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me)
-
----
-
 Name: once
 Version: 1.4.0
 License: ISC
@@ -116,6 +106,16 @@ Private: false
 Description: Run a function exactly one time
 Repository: git://github.com/isaacs/once
 Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
+
+---
+
+Name: minimatch
+Version: 3.0.4
+License: ISC
+Private: false
+Description: a glob matcher in javascript
+Repository: git://github.com/isaacs/minimatch.git
+Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me)
 
 ---
 
@@ -162,6 +162,16 @@ Author: Julian Gruber <mail@juliangruber.com> (http://juliangruber.com)
 
 ---
 
+Name: concat-map
+Version: 0.0.1
+License: MIT
+Private: false
+Description: concatenative mapdashery
+Repository: git://github.com/substack/node-concat-map.git
+Author: James Halliday <mail@substack.net> (http://substack.net)
+
+---
+
 Name: balanced-match
 Version: 1.0.0
 License: MIT
@@ -170,13 +180,3 @@ Description: Match balanced character pairs, like "{" and "}"
 Repository: git://github.com/juliangruber/balanced-match.git
 Homepage: https://github.com/juliangruber/balanced-match
 Author: Julian Gruber <mail@juliangruber.com> (http://juliangruber.com)
-
----
-
-Name: concat-map
-Version: 0.0.1
-License: MIT
-Private: false
-Description: concatenative mapdashery
-Repository: git://github.com/substack/node-concat-map.git
-Author: James Halliday <mail@substack.net> (http://substack.net)

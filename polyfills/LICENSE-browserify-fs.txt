@@ -85,6 +85,16 @@ Contributors:
 
 ---
 
+Name: once
+Version: 1.4.0
+License: ISC
+Private: false
+Description: Run a function exactly one time
+Repository: git://github.com/isaacs/once
+Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
+
+---
+
 Name: octal
 Version: 1.0.0
 License: MIT
@@ -96,23 +106,22 @@ Author: Mathias Buus (@mafintosh)
 
 ---
 
-Name: once
-Version: 1.4.0
-License: ISC
+Name: level-peek
+Version: 1.0.6
+License: MIT
 Private: false
-Description: Run a function exactly one time
-Repository: git://github.com/isaacs/once
-Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
+Repository: git://github.com/dominictarr/level-peek.git
+Homepage: https://github.com/dominictarr/level-peek
+Author: Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)
 
 ---
 
-Name: readable-stream
-Version: 1.0.34
-License: MIT
+Name: fwd-stream
+Version: 1.0.4
+License: undefined
 Private: false
-Description: Streams2, a user-land copy of the stream library from Node.js v0.10.x
-Repository: git://github.com/isaacs/readable-stream
-Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
+Description: Forward a readable stream to another readable stream or a writable stream to another writable stream
+Repository: undefined
 
 ---
 
@@ -127,32 +136,22 @@ Author: Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)
 
 ---
 
-Name: fwd-stream
-Version: 1.0.4
+Name: level-blobs
+Version: 0.1.7
 License: undefined
 Private: false
-Description: Forward a readable stream to another readable stream or a writable stream to another writable stream
+Description: Save binary blobs in level and stream then back
 Repository: undefined
 
 ---
 
-Name: level-peek
-Version: 1.0.6
+Name: readable-stream
+Version: 1.0.34
 License: MIT
 Private: false
-Repository: git://github.com/dominictarr/level-peek.git
-Homepage: https://github.com/dominictarr/level-peek
-Author: Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)
-
----
-
-Name: concat-stream
-Version: 1.6.2
-License: MIT
-Private: false
-Description: writable stream that concatenates strings or binary data and calls a callback with the result
-Repository: http://github.com/maxogden/concat-stream.git
-Author: Max Ogden <max@maxogden.com>
+Description: Streams2, a user-land copy of the stream library from Node.js v0.10.x
+Repository: git://github.com/isaacs/readable-stream
+Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
 
 ---
 
@@ -165,12 +164,13 @@ Repository: https://github.com/rvagg/node-errno.git
 
 ---
 
-Name: level-blobs
-Version: 0.1.7
-License: undefined
+Name: concat-stream
+Version: 1.6.2
+License: MIT
 Private: false
-Description: Save binary blobs in level and stream then back
-Repository: undefined
+Description: writable stream that concatenates strings or binary data and calls a callback with the result
+Repository: http://github.com/maxogden/concat-stream.git
+Author: Max Ogden <max@maxogden.com>
 
 ---
 
@@ -266,16 +266,6 @@ Contributors:
 
 ---
 
-Name: bl
-Version: 0.8.2
-License: MIT
-Private: false
-Description: Buffer List: collect buffers and access with a standard readable Buffer interface, streamable too!
-Repository: https://github.com/rvagg/bl.git
-Homepage: https://github.com/rvagg/bl
-
----
-
 Name: wrappy
 Version: 1.0.2
 License: ISC
@@ -307,6 +297,16 @@ Author: Jordan Harband
 
 ---
 
+Name: bl
+Version: 0.8.2
+License: MIT
+Private: false
+Description: Buffer List: collect buffers and access with a standard readable Buffer interface, streamable too!
+Repository: https://github.com/rvagg/bl.git
+Homepage: https://github.com/rvagg/bl
+
+---
+
 Name: typedarray
 Version: 0.0.6
 License: MIT
@@ -319,7 +319,7 @@ Author: James Halliday <mail@substack.net> (http://substack.net)
 ---
 
 Name: level-fix-range
-Version: 2.0.0
+Version: 1.0.2
 License: MIT
 Private: false
 Description: make using levelup reverse ranges easy

@@ -12,7 +12,7 @@ export function builtinsResolver(opts: NodePolyfillsOptions) {
   const libs = new Map();
 
   libs.set('process', require.resolve('../polyfills/process-es6'));
-  libs.set('buffer', require.resolve('../polyfills/buffer-es6'));
+  libs.set('buffer', require.resolve('../polyfills/buffer'));
   libs.set('util', require.resolve('../polyfills/util'));
   libs.set('sys', libs.get('util'));
   libs.set('events', require.resolve('../polyfills/events'));

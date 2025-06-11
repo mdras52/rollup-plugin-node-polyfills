@@ -4090,6 +4090,14 @@ var browser_8$1 = browser$5.Decipheriv;
 var browser_9$1 = browser$5.listCiphers;
 var browser_10$1 = browser$5.getCiphers;
 
+var empty = {};
+
+var empty$1 = /*#__PURE__*/Object.freeze({
+	'default': empty
+});
+
+var require$$0 = getCjsExportFromNamespace(empty$1);
+
 var bn = createCommonjsModule(function (module) {
 (function (module, exports) {
 
@@ -4142,7 +4150,7 @@ var bn = createCommonjsModule(function (module) {
 
   var Buffer;
   try {
-    Buffer = buffer$1.Buffer;
+    Buffer = require$$0.Buffer;
   } catch (e) {
   }
 
@@ -13369,13 +13377,13 @@ EDDSA.prototype.isPoint = function isPoint(val) {
   return val instanceof this.pointClass;
 };
 
-var require$$0 = getCjsExportFromNamespace(_package$1);
+var require$$0$1 = getCjsExportFromNamespace(_package$1);
 
 var elliptic_1 = createCommonjsModule(function (module, exports) {
 
 var elliptic = exports;
 
-elliptic.version = require$$0.version;
+elliptic.version = require$$0$1.version;
 elliptic.utils = utils_1$1;
 elliptic.rand = brorand;
 elliptic.curve = curve_1;

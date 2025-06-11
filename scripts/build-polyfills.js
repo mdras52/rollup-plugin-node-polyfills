@@ -7,22 +7,22 @@ const license = require('rollup-plugin-license');
 
 async function main() {
   await Promise.all([
+    bundleDependency('buffer', false),
     bundleDependency('process-es6'),
-    bundleDependency('buffer-es6'),
     bundleDependency('browserify-fs'),
     bundleDependency('crypto-browserify'),
     bundleDependency('ts-fs-promise')
   ])
 }
 
-async function bundleDependency(depName) {
+async function bundleDependency(depName, preferBuiltIn = true) {
   const bundle = await rollup.rollup({
     input: depName,
     plugins: [
       commonjs(),
       nodeResolve({
         browser: true,
-        preferBuiltins: true
+        preferBuiltins: preferBuiltIn,
       }),
       license({
         thirdParty: {
@@ -39,8 +39,7 @@ async function bundleDependency(depName) {
       'events',
       'path',
       'stream',
-      'util',
-      'buffer'
+      'util'
     ]
   });
 
