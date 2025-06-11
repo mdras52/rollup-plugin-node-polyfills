@@ -22,10 +22,7 @@ export function builtinsResolver(opts: NodePolyfillsOptions) {
   libs.set('punycode', require.resolve('../polyfills/punycode'));
   libs.set('url', require.resolve('../polyfills/url'));
   libs.set('string_decoder', require.resolve('../polyfills/string-decoder'));
-  libs.set('http', require.resolve('../polyfills/http'));
-  libs.set('https', require.resolve('../polyfills/http'));
   libs.set('os', require.resolve('../polyfills/os'));
-  libs.set('assert', require.resolve('../polyfills/assert'));
   libs.set('constants', require.resolve('../polyfills/constants'));
   libs.set('_stream_duplex', require.resolve('../polyfills/readable-stream/duplex'));
   libs.set('_stream_passthrough', require.resolve('../polyfills/readable-stream/passthrough'));

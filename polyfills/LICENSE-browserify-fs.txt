@@ -85,16 +85,6 @@ Contributors:
 
 ---
 
-Name: once
-Version: 1.4.0
-License: ISC
-Private: false
-Description: Run a function exactly one time
-Repository: git://github.com/isaacs/once
-Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
-
----
-
 Name: octal
 Version: 1.0.0
 License: MIT
@@ -103,6 +93,16 @@ Description: Interpret a number as base 8
 Repository: https://github.com/mafintosh/octal.git
 Homepage: https://github.com/mafintosh/octal
 Author: Mathias Buus (@mafintosh)
+
+---
+
+Name: once
+Version: 1.4.0
+License: ISC
+Private: false
+Description: Run a function exactly one time
+Repository: git://github.com/isaacs/once
+Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
 
 ---
 
@@ -125,6 +125,15 @@ Repository: undefined
 
 ---
 
+Name: level-blobs
+Version: 0.1.7
+License: undefined
+Private: false
+Description: Save binary blobs in level and stream then back
+Repository: undefined
+
+---
+
 Name: level-sublevel
 Version: 5.2.3
 License: MIT
@@ -133,15 +142,6 @@ Description: partition levelup databases
 Repository: git://github.com/dominictarr/level-sublevel.git
 Homepage: https://github.com/dominictarr/level-sublevel
 Author: Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)
-
----
-
-Name: level-blobs
-Version: 0.1.7
-License: undefined
-Private: false
-Description: Save binary blobs in level and stream then back
-Repository: undefined
 
 ---
 
@@ -277,16 +277,6 @@ Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
 
 ---
 
-Name: ltgt
-Version: 2.2.1
-License: MIT
-Private: false
-Repository: git://github.com/dominictarr/ltgt.git
-Homepage: https://github.com/dominictarr/ltgt
-Author: Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)
-
----
-
 Name: object-keys
 Version: 0.4.0
 License: MIT
@@ -294,6 +284,17 @@ Private: false
 Description: An Object.keys replacement, in case Object.keys is not available. From https://github.com/kriskowal/es5-shim
 Repository: git://github.com/ljharb/object-keys.git
 Author: Jordan Harband
+
+---
+
+Name: level-fix-range
+Version: 1.0.2
+License: MIT
+Private: false
+Description: make using levelup reverse ranges easy
+Repository: git://github.com/dominictarr/level-fix-range.git
+Homepage: https://github.com/dominictarr/level-fix-range
+Author: Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)
 
 ---
 
@@ -307,6 +308,16 @@ Homepage: https://github.com/rvagg/bl
 
 ---
 
+Name: ltgt
+Version: 2.2.1
+License: MIT
+Private: false
+Repository: git://github.com/dominictarr/ltgt.git
+Homepage: https://github.com/dominictarr/ltgt
+Author: Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)
+
+---
+
 Name: typedarray
 Version: 0.0.6
 License: MIT
@@ -315,17 +326,6 @@ Description: TypedArray polyfill for old browsers
 Repository: git://github.com/substack/typedarray.git
 Homepage: https://github.com/substack/typedarray
 Author: James Halliday <mail@substack.net> (http://substack.net)
-
----
-
-Name: level-fix-range
-Version: 1.0.2
-License: MIT
-Private: false
-Description: make using levelup reverse ranges easy
-Repository: git://github.com/dominictarr/level-fix-range.git
-Homepage: https://github.com/dominictarr/level-fix-range
-Author: Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)
 
 ---
 

@@ -9,7 +9,6 @@ const files = [
   'url-parse.js',
   'url-format.js',
   'stream.js',
-  'assert.js',
   'constants.js',
   'os.js',
   'path.js',
