@@ -80,15 +80,6 @@ Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
 
 ---
 
-Name: inherits
-Version: 2.0.3
-License: ISC
-Private: false
-Description: Browser-friendly inheritance fully compatible with standard node.js inherits()
-Repository: undefined
-
----
-
 Name: fs.realpath
 Version: 1.0.0
 License: ISC
@@ -106,6 +97,15 @@ Private: false
 Description: a glob matcher in javascript
 Repository: git://github.com/isaacs/minimatch.git
 Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me)
+
+---
+
+Name: inherits
+Version: 2.0.3
+License: ISC
+Private: false
+Description: Browser-friendly inheritance fully compatible with standard node.js inherits()
+Repository: undefined
 
 ---
 

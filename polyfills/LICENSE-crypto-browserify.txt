@@ -39,6 +39,26 @@ Author: Daniel Cousens
 
 ---
 
+Name: randombytes
+Version: 2.1.0
+License: MIT
+Private: false
+Description: random bytes from browserify stand alone
+Repository: git@github.com:crypto-browserify/randombytes.git
+Homepage: https://github.com/crypto-browserify/randombytes
+
+---
+
+Name: create-hash
+Version: 1.2.0
+License: MIT
+Private: false
+Description: create hashes for browserify
+Repository: git@github.com:crypto-browserify/createHash.git
+Homepage: https://github.com/crypto-browserify/createHash
+
+---
+
 Name: browserify-cipher
 Version: 1.0.1
 License: MIT
@@ -60,24 +80,13 @@ Author: Calvin Metcalf
 
 ---
 
-Name: create-hash
-Version: 1.2.0
+Name: randomfill
+Version: 1.0.4
 License: MIT
 Private: false
-Description: create hashes for browserify
-Repository: git@github.com:crypto-browserify/createHash.git
-Homepage: https://github.com/crypto-browserify/createHash
-
----
-
-Name: create-ecdh
-Version: 4.0.3
-License: MIT
-Private: false
-Description: createECDH but browserifiable
-Repository: https://github.com/crypto-browserify/createECDH.git
-Homepage: https://github.com/crypto-browserify/createECDH
-Author: Calvin Metcalf
+Description: random fill from browserify stand alone
+Repository: https://github.com/crypto-browserify/randomfill.git
+Homepage: https://github.com/crypto-browserify/randomfill
 
 ---
 
@@ -92,23 +101,14 @@ Author: Calvin Metcalf
 
 ---
 
-Name: randombytes
-Version: 2.1.0
+Name: create-ecdh
+Version: 4.0.3
 License: MIT
 Private: false
-Description: random bytes from browserify stand alone
-Repository: git@github.com:crypto-browserify/randombytes.git
-Homepage: https://github.com/crypto-browserify/randombytes
-
----
-
-Name: randomfill
-Version: 1.0.4
-License: MIT
-Private: false
-Description: random fill from browserify stand alone
-Repository: https://github.com/crypto-browserify/randomfill.git
-Homepage: https://github.com/crypto-browserify/randomfill
+Description: createECDH but browserifiable
+Repository: https://github.com/crypto-browserify/createECDH.git
+Homepage: https://github.com/crypto-browserify/createECDH
+Author: Calvin Metcalf
 
 ---
 
@@ -128,57 +128,6 @@ Private: false
 Repository: git+https://github.com/crypto-browserify/browserify-des.git
 Homepage: https://github.com/crypto-browserify/browserify-des#readme
 Author: Calvin Metcalf <calvin.metcalf@gmail.com>
-
----
-
-Name: browserify-rsa
-Version: 4.0.1
-License: MIT
-Private: false
-Description: RSA for browserify
-Repository: git@github.com:crypto-browserify/browserify-rsa.git
-
----
-
-Name: elliptic
-Version: 6.4.1
-License: MIT
-Private: false
-Description: EC cryptography
-Repository: git@github.com:indutny/elliptic
-Homepage: https://github.com/indutny/elliptic
-Author: Fedor Indutny <fedor@indutny.com>
-
----
-
-Name: bn.js
-Version: 4.11.8
-License: MIT
-Private: false
-Description: Big number implementation in pure javascript
-Repository: git@github.com:indutny/bn.js
-Homepage: https://github.com/indutny/bn.js
-Author: Fedor Indutny <fedor@indutny.com>
-
----
-
-Name: rollup-plugin-node-resolve
-Version: 5.0.2
-License: MIT
-Private: false
-Description: Bundle third-party dependencies in node_modules
-Repository: undefined
-Homepage: https://github.com/rollup/rollup-plugin-node-resolve#readme
-Author: Rich Harris <richard.a.harris@gmail.com>
-
----
-
-Name: parse-asn1
-Version: 5.1.4
-License: ISC
-Private: false
-Description: utility library for parsing asn1 files for use with browserify-sign.
-Repository: git://github.com/crypto-browserify/parse-asn1.git
 
 ---
 
@@ -238,14 +187,54 @@ Contributors:
 
 ---
 
-Name: sha.js
-Version: 2.4.11
-License: (MIT AND BSD-3-Clause)
+Name: bn.js
+Version: 4.11.8
+License: MIT
 Private: false
-Description: Streamable SHA hashes in pure javascript
-Repository: git://github.com/crypto-browserify/sha.js.git
-Homepage: https://github.com/crypto-browserify/sha.js
-Author: Dominic Tarr <dominic.tarr@gmail.com> (dominictarr.com)
+Description: Big number implementation in pure javascript
+Repository: git@github.com:indutny/bn.js
+Homepage: https://github.com/indutny/bn.js
+Author: Fedor Indutny <fedor@indutny.com>
+
+---
+
+Name: rollup-plugin-node-resolve
+Version: 5.0.2
+License: MIT
+Private: false
+Description: Bundle third-party dependencies in node_modules
+Repository: undefined
+Homepage: https://github.com/rollup/rollup-plugin-node-resolve#readme
+Author: Rich Harris <richard.a.harris@gmail.com>
+
+---
+
+Name: elliptic
+Version: 6.4.1
+License: MIT
+Private: false
+Description: EC cryptography
+Repository: git@github.com:indutny/elliptic
+Homepage: https://github.com/indutny/elliptic
+Author: Fedor Indutny <fedor@indutny.com>
+
+---
+
+Name: browserify-rsa
+Version: 4.0.1
+License: MIT
+Private: false
+Description: RSA for browserify
+Repository: git@github.com:crypto-browserify/browserify-rsa.git
+
+---
+
+Name: parse-asn1
+Version: 5.1.4
+License: ISC
+Private: false
+Description: utility library for parsing asn1 files for use with browserify-sign.
+Repository: git://github.com/crypto-browserify/parse-asn1.git
 
 ---
 
@@ -255,6 +244,17 @@ License: MIT
 Private: false
 Description: Compute ripemd160 of bytes or strings.
 Repository: https://github.com/crypto-browserify/ripemd160
+
+---
+
+Name: sha.js
+Version: 2.4.11
+License: (MIT AND BSD-3-Clause)
+Private: false
+Description: Streamable SHA hashes in pure javascript
+Repository: git://github.com/crypto-browserify/sha.js.git
+Homepage: https://github.com/crypto-browserify/sha.js
+Author: Dominic Tarr <dominic.tarr@gmail.com> (dominictarr.com)
 
 ---
 
@@ -280,6 +280,17 @@ Author: Fedor Indutny <fedor@indutny.com>
 
 ---
 
+Name: hash-base
+Version: 3.0.4
+License: MIT
+Private: false
+Description: abstract base class for hash-streams
+Repository: https://github.com/crypto-browserify/hash-base.git
+Homepage: https://github.com/crypto-browserify/hash-base
+Author: Kirill Fomichev <fanatid@ya.ru> (https://github.com/fanatid)
+
+---
+
 Name: brorand
 Version: 1.1.0
 License: MIT
@@ -288,6 +299,17 @@ Description: Random number generator for browsers and node.js
 Repository: git@github.com:indutny/brorand
 Homepage: https://github.com/indutny/brorand
 Author: Fedor Indutny <fedor@indutny.com>
+
+---
+
+Name: buffer-xor
+Version: 1.0.3
+License: MIT
+Private: false
+Description: A simple module for bitwise-xor on buffers
+Repository: https://github.com/crypto-browserify/buffer-xor.git
+Homepage: https://github.com/crypto-browserify/buffer-xor
+Author: Daniel Cousens
 
 ---
 
@@ -302,17 +324,6 @@ Author: Fedor Indutny
 
 ---
 
-Name: hash-base
-Version: 3.0.4
-License: MIT
-Private: false
-Description: abstract base class for hash-streams
-Repository: https://github.com/crypto-browserify/hash-base.git
-Homepage: https://github.com/crypto-browserify/hash-base
-Author: Kirill Fomichev <fanatid@ya.ru> (https://github.com/fanatid)
-
----
-
 Name: minimalistic-assert
 Version: 1.0.1
 License: ISC
@@ -320,17 +331,6 @@ Private: false
 Description: minimalistic-assert ===
 Repository: https://github.com/calvinmetcalf/minimalistic-assert.git
 Homepage: https://github.com/calvinmetcalf/minimalistic-assert
-
----
-
-Name: minimalistic-crypto-utils
-Version: 1.0.1
-License: MIT
-Private: false
-Description: Minimalistic tools for JS crypto modules
-Repository: git+ssh://git@github.com/indutny/minimalistic-crypto-utils.git
-Homepage: https://github.com/indutny/minimalistic-crypto-utils#readme
-Author: Fedor Indutny <fedor@indutny.com>
 
 ---
 
@@ -345,14 +345,14 @@ Author: Fedor Indutny <fedor@indutny.com>
 
 ---
 
-Name: buffer-xor
-Version: 1.0.3
+Name: minimalistic-crypto-utils
+Version: 1.0.1
 License: MIT
 Private: false
-Description: A simple module for bitwise-xor on buffers
-Repository: https://github.com/crypto-browserify/buffer-xor.git
-Homepage: https://github.com/crypto-browserify/buffer-xor
-Author: Daniel Cousens
+Description: Minimalistic tools for JS crypto modules
+Repository: git+ssh://git@github.com/indutny/minimalistic-crypto-utils.git
+Homepage: https://github.com/indutny/minimalistic-crypto-utils#readme
+Author: Fedor Indutny <fedor@indutny.com>
 
 ---
 

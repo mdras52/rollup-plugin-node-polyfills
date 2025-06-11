@@ -12,17 +12,6 @@ Contributors:
 
 ---
 
-Name: base64-js
-Version: 1.5.1
-License: MIT
-Private: false
-Description: Base64 encoding/decoding in pure JS
-Repository: git://github.com/beatgammit/base64-js.git
-Homepage: https://github.com/beatgammit/base64-js
-Author: T. Jameson Little <t.jameson.little@gmail.com>
-
----
-
 Name: ieee754
 Version: 1.2.1
 License: BSD-3-Clause
@@ -32,3 +21,14 @@ Repository: git://github.com/feross/ieee754.git
 Author: Feross Aboukhadijeh <feross@feross.org> (https://feross.org)
 Contributors:
   Romain Beauxis <toots@rastageeks.org>
+
+---
+
+Name: base64-js
+Version: 1.5.1
+License: MIT
+Private: false
+Description: Base64 encoding/decoding in pure JS
+Repository: git://github.com/beatgammit/base64-js.git
+Homepage: https://github.com/beatgammit/base64-js
+Author: T. Jameson Little <t.jameson.little@gmail.com>

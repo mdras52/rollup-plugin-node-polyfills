@@ -7,16 +7,6 @@ Repository: undefined
 
 ---
 
-Name: level-js
-Version: 2.2.4
-License: BSD-2-Clause
-Private: false
-Description: leveldown/leveldb library for browsers using IndexedDB
-Repository: git@github.com:maxogden/level.js.git
-Author: max ogden
-
----
-
 Name: levelup
 Version: 0.18.6
 License: MIT
@@ -38,6 +28,16 @@ Contributors:
   Matteo Collina <matteo.collina@gmail.com> (https://github.com/mcollina)
   Pedro Teixeira <pedro.teixeira@gmail.com> (https://github.com/pgte)
   James Halliday <mail@substack.net> (https://github.com/substack)
+
+---
+
+Name: level-js
+Version: 2.2.4
+License: BSD-2-Clause
+Private: false
+Description: leveldown/leveldb library for browsers using IndexedDB
+Repository: git@github.com:maxogden/level.js.git
+Author: max ogden
 
 ---
 
@@ -71,17 +71,13 @@ Homepage: https://github.com/rvagg/prr
 
 ---
 
-Name: xtend
-Version: 2.1.2
-License: (MIT)
+Name: once
+Version: 1.4.0
+License: ISC
 Private: false
-Description: extend like a boss
-Repository: undefined
-Homepage: https://github.com/Raynos/xtend
-Author: Raynos <raynos2@gmail.com>
-Contributors:
-  Jake Verbaten
-  Matt Esch
+Description: Run a function exactly one time
+Repository: git://github.com/isaacs/once
+Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
 
 ---
 
@@ -96,13 +92,37 @@ Author: Mathias Buus (@mafintosh)
 
 ---
 
-Name: once
-Version: 1.4.0
-License: ISC
+Name: xtend
+Version: 2.1.2
+License: (MIT)
 Private: false
-Description: Run a function exactly one time
-Repository: git://github.com/isaacs/once
-Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
+Description: extend like a boss
+Repository: undefined
+Homepage: https://github.com/Raynos/xtend
+Author: Raynos <raynos2@gmail.com>
+Contributors:
+  Jake Verbaten
+  Matt Esch
+
+---
+
+Name: fwd-stream
+Version: 1.0.4
+License: undefined
+Private: false
+Description: Forward a readable stream to another readable stream or a writable stream to another writable stream
+Repository: undefined
+
+---
+
+Name: level-sublevel
+Version: 5.2.3
+License: MIT
+Private: false
+Description: partition levelup databases
+Repository: git://github.com/dominictarr/level-sublevel.git
+Homepage: https://github.com/dominictarr/level-sublevel
+Author: Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)
 
 ---
 
@@ -116,32 +136,12 @@ Author: Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)
 
 ---
 
-Name: fwd-stream
-Version: 1.0.4
-License: undefined
-Private: false
-Description: Forward a readable stream to another readable stream or a writable stream to another writable stream
-Repository: undefined
-
----
-
 Name: level-blobs
 Version: 0.1.7
 License: undefined
 Private: false
 Description: Save binary blobs in level and stream then back
 Repository: undefined
-
----
-
-Name: level-sublevel
-Version: 5.2.3
-License: MIT
-Private: false
-Description: partition levelup databases
-Repository: git://github.com/dominictarr/level-sublevel.git
-Homepage: https://github.com/dominictarr/level-sublevel
-Author: Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)
 
 ---
 
@@ -183,19 +183,6 @@ Repository: undefined
 
 ---
 
-Name: idb-wrapper
-Version: 1.7.2
-License: MIT
-Private: false
-Description: A cross-browser wrapper for IndexedDB
-Repository: undefined
-Homepage: https://github.com/jensarps/IDBWrapper
-Author: jensarps <mail@jensarps.de> (http://jensarps.de/)
-Contributors:
-  Github Contributors (https://github.com/jensarps/IDBWrapper/graphs/contributors)
-
----
-
 Name: abstract-leveldown
 Version: 0.12.4
 License: MIT
@@ -217,6 +204,19 @@ Contributors:
   Matteo Collina <matteo.collina@gmail.com> (https://github.com/mcollina)
   Pedro Teixeira <pedro.teixeira@gmail.com> (https://github.com/pgte)
   James Halliday <mail@substack.net> (https://github.com/substack)
+
+---
+
+Name: idb-wrapper
+Version: 1.7.2
+License: MIT
+Private: false
+Description: A cross-browser wrapper for IndexedDB
+Repository: undefined
+Homepage: https://github.com/jensarps/IDBWrapper
+Author: jensarps <mail@jensarps.de> (http://jensarps.de/)
+Contributors:
+  Github Contributors (https://github.com/jensarps/IDBWrapper/graphs/contributors)
 
 ---
 
@@ -288,7 +288,7 @@ Author: Jordan Harband
 ---
 
 Name: level-fix-range
-Version: 1.0.2
+Version: 2.0.0
 License: MIT
 Private: false
 Description: make using levelup reverse ranges easy
@@ -447,19 +447,6 @@ Contributors:
 
 ---
 
-Name: foreach
-Version: 2.0.5
-License: MIT
-Private: false
-Description: foreach component + npm package
-Repository: git://github.com/manuelstofer/foreach
-Author: Manuel Stofer <manuel@takimata.ch>
-Contributors:
-  Manuel Stofer
-  Jordan Harband (https://github.com/ljharb)
-
----
-
 Name: is
 Version: 0.2.7
 License: undefined
@@ -469,4 +456,17 @@ Repository: git://github.com/enricomarino/is.git
 Homepage: https://github.com/enricomarino/is
 Author: Enrico Marino (http://onirame.com)
 Contributors:
+  Jordan Harband (https://github.com/ljharb)
+
+---
+
+Name: foreach
+Version: 2.0.5
+License: MIT
+Private: false
+Description: foreach component + npm package
+Repository: git://github.com/manuelstofer/foreach
+Author: Manuel Stofer <manuel@takimata.ch>
+Contributors:
+  Manuel Stofer
   Jordan Harband (https://github.com/ljharb)
