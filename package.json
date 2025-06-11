@@ -1,6 +1,6 @@
 {
   "name": "@mdras52/rollup-plugin-node-polyfills",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/types/index.d.ts",
