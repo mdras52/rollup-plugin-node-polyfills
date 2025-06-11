@@ -8162,9 +8162,6 @@ var dependencies = {
 	"minimalistic-assert": "^1.0.0",
 	"minimalistic-crypto-utils": "^1.0.0"
 };
-var _resolved = "https://registry.npmjs.org/elliptic/-/elliptic-6.4.1.tgz";
-var _integrity = "sha512-BsXLz5sqX8OHcsh7CqBMztyXARmGQ3LWPtGjJi6DiJHq5C/qvi9P3OqgswKSDftbu8+IoI/QDTAm2fFnQ9SZSQ==";
-var _from = "elliptic@6.4.1";
 var _package = {
 	name: name,
 	version: version,
@@ -8179,10 +8176,7 @@ var _package = {
 	bugs: bugs,
 	homepage: homepage,
 	devDependencies: devDependencies,
-	dependencies: dependencies,
-	_resolved: _resolved,
-	_integrity: _integrity,
-	_from: _from
+	dependencies: dependencies
 };
 
 var _package$1 = /*#__PURE__*/Object.freeze({
@@ -8200,9 +8194,6 @@ var _package$1 = /*#__PURE__*/Object.freeze({
 	homepage: homepage,
 	devDependencies: devDependencies,
 	dependencies: dependencies,
-	_resolved: _resolved,
-	_integrity: _integrity,
-	_from: _from,
 	'default': _package
 });
 

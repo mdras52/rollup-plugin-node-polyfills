@@ -1,6 +1,6 @@
 {
-  "name": "rollup-plugin-node-polyfills",
-  "version": "0.2.1",
+  "name": "@mdras52/rollup-plugin-node-polyfills",
+  "version": "0.2.3",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/types/index.d.ts",
@@ -46,6 +46,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:ionic-team/rollup-plugin-node-polyfills.git"
+    "url": "git+ssh://git@github.com/mdras52/rollup-plugin-node-polyfills.git"
+  },
+  "description": "rollup-plugin-node-polyfills ===",
+  "bugs": {
+    "url": "https://github.com/mdras52/rollup-plugin-node-polyfills/issues"
+  },
+  "homepage": "https://github.com/mdras52/rollup-plugin-node-polyfills#readme",
+  "directories": {
+    "test": "test"
   }
 }

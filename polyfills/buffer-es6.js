@@ -1978,4 +1978,4 @@ function isSlowBuffer (obj) {
   return typeof obj.readFloatLE === 'function' && typeof obj.slice === 'function' && isFastBuffer(obj.slice(0, 0))
 }
 
-export default { Buffer, INSPECT_MAX_BYTES, SlowBuffer, isBuffer, kMaxLength: _kMaxLength };
+export { Buffer, INSPECT_MAX_BYTES, SlowBuffer, isBuffer, _kMaxLength as kMaxLength };

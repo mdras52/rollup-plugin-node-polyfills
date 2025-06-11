@@ -94,3 +94,6 @@ License
 ===
 
 MIT except ES6 ports of browserify modules which are whatever the original library was.
+
+
+Forked from https://github.com/ionic-team/rollup-plugin-node-polyfills for maintenance
